@@ -1,4 +1,4 @@
-# Hirechannel Technical Assessment
+# Hirechannel Hirevoice Assessment
 
 Welcome to the Hirechannel technical assessment! This challenge is designed to evaluate your fullstack development skills, with a focus on video handling and system integration capabilities.
 
@@ -13,14 +13,14 @@ Please, read the whole document before starting the assessment.
 - The results of this assessment will not be used internally.
 - The results will not be used for any other purposes under any circumstances
 
-After reading the document and prior to starting the assessment, you must send an email to alvaro@hirechannel.com confirming your acceptance of the terms above:
+After reading the document and prior to starting the assessment, you must send an email to alvaro@Hirevoice.com confirming your acceptance of the terms above:
 
 ```
-Subject: Hirechannel Technical Assessment Acceptance
+Subject: Hirevoice Technical Assessment Acceptance
 
 Hello,
 
-I accept the terms and conditions of the Hirechannel technical assessment.
+I accept the terms and conditions of the Hirevoice technical assessment.
 
 The terms and conditions are:
 
