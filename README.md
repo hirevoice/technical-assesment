@@ -43,7 +43,6 @@ Best regards,
 - [Technical Guidelines](#-technical-guidelines)
 - [Bonus Features (Optional)](#-bonus-features-optional)
 - [Submission Requirements](#-submission-requirements)
-- [Time Expectation](#️-time-expectation)
 - [Evaluation Criteria](#-evaluation-criteria)
 - [Getting Started](#-getting-started)
 - [Important Considerations](#️-important-considerations)
@@ -68,7 +67,7 @@ Build a simplified version of a video interview system where candidates can reco
 - Essential features:
   - Camera/microphone permission handling.
   - Start/stop recording controls.
-  - A clean, simple UI (no authentication required).
+  - A clean, simple UI.
   - A timer: once the candidate starts recording, the timer should start. Once the timer reaches 0, the recording should stop and go to the next question.
 
 ### Backend
@@ -76,7 +75,7 @@ Build a backend using the technologies you prefer with a key integration to proc
 - **AI Evaluation System**
    - Transcribe the recorded video using a Speech-to-Text API.
    - Send the transcription to an LLM to evaluate the candidate's answer.
-   - Retrieve an evaluation score (from 1 to 5) for the candidate's answer. You don't need to display the score in the frontend. Just print it to the console in the server. The evaluation criteria is up to you.
+   - Retrieve an evaluation score (from 1 to 5) for the candidate's answer. You don't need to display the score in the frontend. Just print it to the console in the server. The evaluation criteria is up to you — we want to see how you approach prompt engineering.
    - Process these steps independently and asynchronously from the main recording flow.
    - As part of your solution, please include the exact prompt you used to evaluate the candidate's answer using the LLM
 
@@ -125,10 +124,8 @@ Please include in your submission an explicit explanation of:
 - Why you chose those tools over other alternatives
 - How you used them in your workflow
 - How you provided feedback to the AI agents to achieve fast feedback loops
-
-## ⏱️ Time Expectation
-
-Approximately 4-5 hours.
+- Include your agent conversation logs and any configuration/rules files (e.g., `.cursorrules`, `CLAUDE.md`, etc.)
+- Document which parts of the code were AI-generated vs. manually written, and explain why you made those decisions
 
 ### 🚨 Important Note
 
@@ -146,11 +143,12 @@ When you reach the 2 hours mark, please:
 
 | Area          | Key Points                                                       |
 |---------------|------------------------------------------------------------------|
-| **Frontend**  | Clean UI; robust media handling; effective error feedback        |
-| **Backend**   | Thoughtful system design; well-implemented integrations          |
-| **Code Quality** | Clean, maintainable, well-documented code                     |
-| **Problem Solving** | Sound architecture decisions                               |
-| **AI Fluency** | Effective use of AI tools and agents in the development workflow |
+| **Frontend**  | Intuitive UX; robust media handling; smooth recording experience; graceful error states; proper permission flows |
+| **Backend**   | Clean API design; proper separation of concerns; resilient AI integrations; appropriate async patterns; proper error propagation |
+| **Code Quality** | Readable code; consistent patterns; meaningful naming; appropriate abstractions; clear project structure |
+| **Problem Solving** | Sound architecture decisions; clear trade-off reasoning; pragmatic solutions; well-reasoned decisions documented in README |
+| **AI Fluency** | Effective prompt engineering; smart agent configuration; clear AI/human contribution boundaries; well-documented AI workflow; fast feedback loops |
+| **Developer Experience** | Easy setup (ideally one command); clear README; reproducible environment; Docker/scripts provided; frictionless onboarding |
 
 ## 🚀 Getting Started
 
