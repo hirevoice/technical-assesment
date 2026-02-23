@@ -87,8 +87,7 @@ The solution must be extensible and loosely coupled with the answer submission f
 
 - **Architecture**: Use the technologies you prefer. Design your solution for easy extensibility.
 - **Async Processing**: Keep the main flow responsive while processing
-- **Browser Handling**:
-  - Focus on compatibility with the latest versions of Chrome or any Chromium-based browser.
+- **Browser Handling**: Focus on compatibility with the latest versions of Chrome or any Chromium-based browser.
 - **Error Handling**: Implement proper error handling throughout the application.
 
 ## 🎁 Bonus Features (Optional)
