@@ -146,9 +146,10 @@ When you reach the 2 hours mark, please:
 | **Frontend**  | Intuitive UX; robust media handling; smooth recording experience; graceful error states; proper permission flows |
 | **Backend**   | Clean API design; proper separation of concerns; resilient AI integrations; appropriate async patterns; proper error propagation |
 | **Code Quality** | Readable code; consistent patterns; meaningful naming; appropriate abstractions; clear project structure |
-| **Problem Solving** | Sound architecture decisions; clear trade-off reasoning; pragmatic solutions; well-reasoned decisions documented in README |
+| **Problem Solving** | Sound architecture decisions; clear trade-off reasoning; pragmatic solutions; appropriate tech choices |
 | **AI Fluency** | Effective prompt engineering; smart agent configuration; clear AI/human contribution boundaries; well-documented AI workflow; fast feedback loops |
-| **Developer Experience** | Easy setup (ideally one command); clear README; reproducible environment; Docker/scripts provided; frictionless onboarding |
+| **Developer Experience** | Easy setup (ideally one command); reproducible environment; Docker/scripts provided; frictionless onboarding |
+| **Documentation** | Well-structured README; clear explanation of decisions and trade-offs; thorough description of architecture and design choices |
 
 ## 🚀 Getting Started
 
