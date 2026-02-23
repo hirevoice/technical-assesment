@@ -141,6 +141,8 @@ When you reach the 2 hours mark, please:
 
 ## 🔍 Evaluation Criteria
 
+> **Take your time. We value thoughtful, high-quality solutions over speed.**
+
 | Area          | Key Points                                                       |
 |---------------|------------------------------------------------------------------|
 | **Frontend**  | Intuitive UX; robust media handling; smooth recording experience; graceful error states; proper permission flows |
