@@ -41,12 +41,12 @@ Best regards,
   - [Frontend](#frontend-estimated-15-2h)
   - [Backend](#backend-estimated-15-2h)
 - [Technical Guidelines](#-technical-guidelines)
-- [Simplifications](#simplifications)
 - [Bonus Features (Optional)](#-bonus-features-optional)
 - [Submission Requirements](#-submission-requirements)
 - [Time Expectation](#️-time-expectation)
 - [Evaluation Criteria](#-evaluation-criteria)
 - [Getting Started](#-getting-started)
+- [Consideraciones Importantes](#️-consideraciones-importantes)
 - [Notes](#-notes)
 
 ## 🎯 Objective
@@ -72,7 +72,7 @@ Build a simplified version of a video interview system where candidates can reco
   - A timer: once the candidate starts recording, the timer should start. Once the timer reaches 0, the recording should stop and go to the next question.
 
 ### Backend
-Build a Node.js backend with a key integration to process the recording:
+Build a backend using the technologies you prefer with a key integration to process the recording:
 - **AI Evaluation System**
    - Transcribe the recorded video using a Speech-to-Text API.
    - Send the transcription to an LLM to evaluate the candidate's answer.
@@ -86,21 +86,11 @@ The solution must be extensible and loosely coupled with the answer submission f
 
 ## 💡 Technical Guidelines
 
-- **Architecture**: Use Node.js for the backend. Design your solution for easy extensibility.
+- **Architecture**: Use the technologies you prefer. Design your solution for easy extensibility.
 - **Async Processing**: Keep the main flow responsive while processing
-- **Browser Handling**: 
+- **Browser Handling**:
   - Focus on compatibility with the latest versions of Chrome or any Chromium-based browser.
-
-## Simplifications
-
-To help you complete the challenge within the time limit, **you do not need** to implement:
-- Authentication
-- A persistent database (in-memory storage is sufficient)
-- Complex UI designs
-- User accounts or job position management
-- Testing
-- Complex error recovery (basic error messages are sufficient)
-- Perfect code organization (focus on functionality first)
+- **Error Handling**: Implement proper error handling throughout the application.
 
 ## 🎁 Bonus Features (Optional)
 
@@ -112,7 +102,7 @@ Note: Only attempt these if you've completed all core requirements with time to 
 ## 📝 Submission Requirements
 
 ### Code Repository
-- Please create a new repository using this repository as a template (click "Use this template" button) and add GitHub users `monterrubio12` and `Couds` as a collaborators.
+- Please create a new repository using this repository as a template (click "Use this template" button) and add GitHub users `monterrubio12` and `inakin` as a collaborators.
 
 ### Screen Recording
 Record your screen **only during the first 2 hours** of assessment-related tasks. If you are using multiple screens, please record all of them in a single video.
@@ -134,6 +124,7 @@ Please include in your submission an explicit explanation of:
 - Which AI tools you used during the assessment
 - Why you chose those tools over other alternatives
 - How you used them in your workflow
+- How you provided feedback to the AI agents to achieve fast feedback loops
 
 ## ⏱️ Time Expectation
 
@@ -156,9 +147,10 @@ When you reach the 2 hours mark, please:
 | Area          | Key Points                                                       |
 |---------------|------------------------------------------------------------------|
 | **Frontend**  | Clean UI; robust media handling; effective error feedback        |
-| **Backend**   | Thoughtful system design; well-implemented integrations            |
+| **Backend**   | Thoughtful system design; well-implemented integrations          |
 | **Code Quality** | Clean, maintainable, well-documented code                     |
-| **Problem Solving** | Sound architecture decisions     |
+| **Problem Solving** | Sound architecture decisions                               |
+| **AI Fluency** | Effective use of AI tools and agents in the development workflow |
 
 ## 🚀 Getting Started
 
@@ -167,7 +159,7 @@ When you reach the 2 hours mark, please:
    - Select "Create a new repository"
    - Make sure to set it as "Private"
    - Create your repository
-2. Add GitHub users `monterrubio12` and `Couds`as a collaborator to your new repository:
+2. Add GitHub users `monterrubio12` and `inakin`as a collaborator to your new repository:
    - Go to Settings > Collaborators
    - Click "Add people"
    - Enter `monterrubio12`
@@ -175,6 +167,13 @@ When you reach the 2 hours mark, please:
    - Repeat for the rest of users
 3. Implement the required features based on the guidelines above.
 4. Submit your solution.
+
+## ⚠️ Consideraciones Importantes
+
+- Estamos creando una empresa de producto, por lo que en esta entrevista valoraremos tanto el sentido y gusto de producto como la robustez y estabilidad de la solución técnica.
+- Recomendamos encarecidamente utilizar un agente para el desarrollo de la prueba.
+- Buscamos gente que sea capaz de traer soluciones a problemas complejos y creemos que una parte de la resolución de este tipo de problemas va a consistir en escribir sobre ellos. Así que te pedimos que escribas un README lo más detallado que puedas.
+- La experiencia del entrevistador es importante, por lo que cuanto más sencillo sea para nosotros probar lo que has desarrollado, más lo valoraremos.
 
 ## 📋 Notes
 
