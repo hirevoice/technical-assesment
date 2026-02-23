@@ -46,7 +46,7 @@ Best regards,
 - [Time Expectation](#️-time-expectation)
 - [Evaluation Criteria](#-evaluation-criteria)
 - [Getting Started](#-getting-started)
-- [Consideraciones Importantes](#️-consideraciones-importantes)
+- [Important Considerations](#️-important-considerations)
 - [Notes](#-notes)
 
 ## 🎯 Objective
@@ -168,12 +168,12 @@ When you reach the 2 hours mark, please:
 3. Implement the required features based on the guidelines above.
 4. Submit your solution.
 
-## ⚠️ Consideraciones Importantes
+## ⚠️ Important Considerations
 
-- Estamos creando una empresa de producto, por lo que en esta entrevista valoraremos tanto el sentido y gusto de producto como la robustez y estabilidad de la solución técnica.
-- Recomendamos encarecidamente utilizar un agente para el desarrollo de la prueba.
-- Buscamos gente que sea capaz de traer soluciones a problemas complejos y creemos que una parte de la resolución de este tipo de problemas va a consistir en escribir sobre ellos. Así que te pedimos que escribas un README lo más detallado que puedas.
-- La experiencia del entrevistador es importante, por lo que cuanto más sencillo sea para nosotros probar lo que has desarrollado, más lo valoraremos.
+- We are building a product company, so in this interview we will value both product sense and taste as well as the robustness and stability of the technical solution.
+- We strongly recommend using an AI agent for the development of this assessment.
+- We are looking for people who can bring solutions to complex problems, and we believe that part of solving these kinds of problems involves writing about them. So we ask you to write as detailed a README as possible.
+- The interviewer's experience matters, so the easier it is for us to test what you've built, the more we will value it.
 
 ## 📋 Notes
 
